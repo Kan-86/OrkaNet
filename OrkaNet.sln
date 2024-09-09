@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrkaNet", "OrkaNet\OrkaNet.csproj", "{104909FD-63D0-4D36-BEC5-8C5E22A7E500}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrkaNet.Core.Entities", "OrkaNet.Core.Entities", "{12653E73-4544-4DDB-B2C6-35BFF6364308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrkaNet.Entities", "OrkaNet.Entities\OrkaNet.Entities.csproj", "{A02E5675-B206-4C30-A312-48C74DCEF548}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrkaNet", "OrkaNet", "{03823B45-3723-46B2-9DA5-D691A852CC8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{104909FD-63D0-4D36-BEC5-8C5E22A7E500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{104909FD-63D0-4D36-BEC5-8C5E22A7E500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{104909FD-63D0-4D36-BEC5-8C5E22A7E500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02E5675-B206-4C30-A312-48C74DCEF548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02E5675-B206-4C30-A312-48C74DCEF548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02E5675-B206-4C30-A312-48C74DCEF548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02E5675-B206-4C30-A312-48C74DCEF548}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{104909FD-63D0-4D36-BEC5-8C5E22A7E500} = {03823B45-3723-46B2-9DA5-D691A852CC8B}
+		{A02E5675-B206-4C30-A312-48C74DCEF548} = {12653E73-4544-4DDB-B2C6-35BFF6364308}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CF6F844-C620-495F-96E1-C93B543C1CD5}
